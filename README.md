@@ -1751,9 +1751,14 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 OneToMany relationship from User to Todo. Mutiple Todos are in one User. 
 
 2. Can you explain how you connected your API to a database?
+By using JPA.
 
 3. Can you explain the flow of data from client through the backend system and back to the client?
+First you make a call to you endpoint. If there is a method set to that endpoint, when the endpoint is hit, it will run.
+If the method runs successfully, it will return the data.
+
 4. How did you handle querying in your application: custom querying vs JPA Querying?
+Custom Querying.
 
 ## Instructions
 
